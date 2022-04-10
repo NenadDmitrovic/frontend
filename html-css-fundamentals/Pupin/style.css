@@ -1,0 +1,92 @@
+body {
+    background-image: url(pozadina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+    padding: 20px;
+    background-color:rgba(255, 245, 239, 0.795);
+}
+
+.nav {
+    width: 20%;
+    float: left;
+    position: relative;
+    right: 30px;
+    height: 700px;
+}
+li {
+    margin-bottom: 50px;
+    list-style-type: none;
+}
+
+a {
+    font-size: 22px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.main {
+    width: 80%;
+    padding: 10px;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border-radius: 20px;
+    border-bottom: 1px solid black;
+}
+
+img {
+    float: left;
+}
+p {
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+}
+.slika{
+    margin-right: 10px;
+}
+
+.drugi {
+    width: 80%;
+    overflow: scroll;
+    height: 500px;
+}
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px ;
+}
+
+.tbl {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+th {
+    padding: 10px;
+    border: solid 1px black;
+    background-color: burlywood;
+}
+td {
+    padding: 8px;
+    border: solid 1px black;
+    background-color: rgba(218, 176, 122, 0.13);
+}
+
+.tabela {
+    width: 80%;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aritmetičke operacije</title>
+</head>
+<body>
+
+    <script>
+
+        let numberA = parseFloat(prompt("Molimo Vas da unesete prvu vrednost"));
+        let oper = prompt("Unesite racunsku operaciju koristeci znakove +, -, * i /");
+        let numberB = parseFloat(prompt("Molimo Vas da unesete drugu vrednost"));
+        let a = parseInt(numberA) + parseInt(numberB);
+        let b = parseInt(numberA) - parseInt(numberB);
+        let c = parseInt(numberA) * parseInt(numberB);
+        let d = parseInt(numberA) / parseInt(numberB);
+
+        switch (oper){
+            case "+":
+                alert(a);
+                break;
+    
+            case "-":
+                alert(b);
+                break;
+
+                case "*":
+                alert(c);
+                break;
+
+            case "/":
+                alert(d);
+                break;
+
+            default:
+                alert("Invalid operation")
+                break;
+
+
+        }
+
+       
+    </script>
+    
+</body>
+</html>
